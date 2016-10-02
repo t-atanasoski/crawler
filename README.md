@@ -1,5 +1,9 @@
 # Crawler
-Web application with configurable crawling settings
+
+[![Build Status](https://travis-ci.org/t-atanasoski/crawler.svg)](https://travis-ci.org/t-atanasoski/crawler)
+
+Crawler is a web application with configurable crawling settings.
+
 
 ## Database design of the crawler configurator
 ![alt tag](https://t-atanasoski.github.io/crawler/crawler_configurations.jpg)
