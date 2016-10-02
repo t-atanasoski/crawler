@@ -2,7 +2,7 @@
 Web application with configurable crawling settings
 
 ## Database design of the crawler configurator
-![alt tag](https://api.genmymodel.com/projects/_t6l14IigEeaHjIRlzIXo2w/diagrams/_t6l14oigEeaHjIRlzIXo2w/jpeg)
+![alt tag](https://t-atanasoski.github.io/crawler/crawler_configurations.jpg)
 
 # Laravel PHP Framework
 
