@@ -2,6 +2,8 @@ language: php
 php:
   - '7.0'
 install:
+  - cp .env.example .env
   - composer install
+  - php artisan key:generate
 # uncomment and edit the following line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
