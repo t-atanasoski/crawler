@@ -26,4 +26,10 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+
+    public function sources()
+    {
+        return $this->hasMany('App\Database\Models\Sources', 'user_id');
+    }
 }

@@ -12,4 +12,9 @@ class Entities extends Model
     {
     	return $this->belongsToMany('App\Database\Models\Pages', 'page_entities', 'entity_id', 'page_id');
     }
+
+    public function entityType()
+    {
+    	return $this->belongsTo('App\Database\Models\EntityTypes', 'entity_type_id');
+    }
 }

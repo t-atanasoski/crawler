@@ -8,6 +8,11 @@ class Sources extends Model
 {
     protected $table = 'sources';
 
+    public function user()
+    {
+        return $this->belongsTo('App\Database\Models\User', 'user_id');
+    }
+
     public function pages()
     {
         return $this->hasMany('App\Database\Models\Pages', 'source_id');
